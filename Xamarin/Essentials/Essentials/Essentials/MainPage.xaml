@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Essentials"
+             x:Class="Essentials.MainPage">
+
+    <StackLayout Margin="12, 12, 12, 12">
+        <Button Text="Get position" Clicked="OnGetPosition" />
+        <ActivityIndicator x:Name="PositionLoading" />
+        <Label x:Name="Latitude" />
+        <Label x:Name="Longitude" />
+        <Button Text="Open map" Clicked="OnOpenMap" />
+        <Button Text="Get device info" Clicked="OnGetDeviceInfo" />
+        <Label x:Name="DeviceModel" />
+        <Label x:Name="DeviceManufacturer" />
+        <Label x:Name="OSVersion" />
+    </StackLayout> 
+
+</ContentPage>
