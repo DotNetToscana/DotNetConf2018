@@ -1,3 +1,6 @@
 [submodule "AzureFunctions2.0"]
 	path = AzureFunctions2.0
 	url = https://github.com/massimobonanni/OrderManagerServerless
+[submodule "AI on the edge/CustomVisionCompanion"]
+	path = AI on the edge/CustomVisionCompanion
+	url = https://github.com/DotNetToscana/CustomVisionCompanion.git
